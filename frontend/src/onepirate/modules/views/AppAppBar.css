@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Logo in App Bar */
+.headerLogo {
+    width: 250px; /* Adjust the width of the logo as needed */
+    margin: 30px; /* Add margin around the logo */
+  }
+  
+  /* Regular Links in App Bar */
+  .headerLinks {
+    display: flex;
+    align-items: center;
+  }
+
+  .heroParagraph{
+    font-family: 'PT Serif', serif;
+  }
+  
+  
+  .menuIcon {
+    display: none;
+    color: black;
+  }
+
+  .heroHeading{
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* Drawer Styles */
+  .drawerLink {
+    display: block;
+    padding: 10px 20px; /* Add padding to the links */
+    color: #0f5da7; /* Text color of the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size of the links */
+    text-transform: none;
+  }
+  
+  .drawerLink:hover {
+    color: #0a3b6f ; /* Text color on hover */
+  }
+
+  .heroSearch:hover{
+    background-color: #125190da;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media only screen and (max-width: 948px) {
+    /* Show the hamburger menu icon on mobile */
+    .headerLogo{
+        width: 150px;
+        margin: 10px;
+    }
+
+    .menuIcon {
+      display: block;
+    }
+    
+    /* Hide the regular links in the app bar on mobile */
+    .headerLinks {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .heroHeading{
+        font-size: 30px;
+    }
+  }
+  
+  /* Your Button Styles */
+  .signup-btn,
+  .signin-btn,
+  .workwell-btn,
+  .home-btn {
+    font-size: 15px;
+    margin: 8px; /* Add margin around each button */
+    text-transform: none; /* Disable text transformation */
+    padding: 10px 20px; /* Add padding to the buttons */
+    font-weight: bold; /* Set font weight to bold */
+    border-radius: 30px; /* Add border radius */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition for background color */
+  }
+  
+  .signup-btn {
+    color: white; /* Text color */
+    background-color: #0f5da7; /* Background color */
+    border: 1px solid #0f5da7; /* Border color */
+  }
+  
+  .signup-btn:hover {
+    color: #0f5da7; /* Text color on hover */
+    background-color: transparent; /* Transparent background color on hover */
+    border: 1px solid #0f5da7; /* Border color on hover */
+  }
+  
+  .signin-btn {
+    color: #0f5da7; /* Text color */
+    border: 1px solid #0f5da7; /* Border color */
+  }
+  
+  .signin-btn:hover {
+    background-color: #0f5da7; /* Background color on hover */
+    color: white; /* Text color on hover */
+    border: 1px solid #333; /* Border color on hover */
+  }
+  
+  .workwell-btn,
+  .home-btn {
+    color: #0f5da7; /* Text color */
+    border: 1px solid transparent; /* Transparent border */
+    margin-left: unset;
+    margin-right: unset;
+    padding: 15px;
+  }
+  
+  .workwell-btn:hover,
+  .home-btn:hover {
+    color: #0a3b6f ; /* Text color */
+    border: 1px solid transparent; /* Transparent border */
+  }

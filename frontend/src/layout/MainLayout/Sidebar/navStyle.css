@@ -1,0 +1,15 @@
+.css-h4y409-MuiList-root{
+  display: flex;
+  list-style: none !important; 
+}
+
+.css-v75i8c-MuiButtonBase-root-MuiListItemButton-root.Mui-selected .MuiListItemIcon-root,
+.css-v75i8c-MuiButtonBase-root-MuiListItemButton-root .MuiListItemIcon-root{
+  display: none;
+}
+
+.css-1u4vkd4-MuiAvatar-root{
+  height: 40px;
+  width: 40px;
+  margin: 0 auto;
+}
